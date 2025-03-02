@@ -1,0 +1,17 @@
+{
+  "name": "typescript2",
+  "version": "1.0.0",
+  "description": "Todo list with CRUD features that emphasizes the use of interfaces",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node todolist.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.8.2"
+  }
+}
